@@ -12,12 +12,12 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @product.picture %>
+  <%= image_tag @product.picture, :size => "180x250" %>
 </p>
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  <%= number_to_currency @product.price, unit: "£" %>
 </p>
 
 <p>
