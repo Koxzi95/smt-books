@@ -1,11 +1,9 @@
 == README
 
 
-CodeShip Status:
 {<img alt="Status?branch=master" src="https://codeship.io/projects/1004a4e0-39b8-0132-b4d8-7ea5f55f971f/status?branch=master" />}[https://codeship.io/projects/42247]
-
-travisCI:
 {<img src="https://travis-ci.org/Koxzi95/smt-books.svg" alt="Build Status" />}[https://travis-ci.org/Koxzi95/smt-books]
+{<img src="https://hakiri.io/github/Koxzi95/smt-books/master.svg" alt="security" />}[https://hakiri.io/github/Koxzi95/smt-books/master]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
