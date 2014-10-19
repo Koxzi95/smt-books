@@ -1,7 +1,0 @@
-{
-  "name": "SMT-Books Deploy",
-  "description": "Ruby on Rails (4.1.6) application with add-edit-delete",
-  "repository": "https://github.com/Koxzi95/smt-books",
-  "logo": "https://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["rails", "express", "app"]
-}
