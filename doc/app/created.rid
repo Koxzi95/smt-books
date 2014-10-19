@@ -1,0 +1,7 @@
+Sun, 19 Oct 2014 17:15:55 +0100
+README.rdoc	Sun, 19 Oct 2014 17:12:42 +0100
+app/controllers/application_controller.rb	Sun, 19 Oct 2014 12:32:57 +0100
+app/controllers/products_controller.rb	Sun, 19 Oct 2014 12:33:54 +0100
+app/helpers/application_helper.rb	Sun, 19 Oct 2014 12:32:57 +0100
+app/helpers/products_helper.rb	Sun, 19 Oct 2014 12:33:54 +0100
+app/models/product.rb	Sun, 19 Oct 2014 13:27:32 +0100
