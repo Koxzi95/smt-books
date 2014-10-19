@@ -13,7 +13,6 @@ group :production do
   gem 'pg' #use postgres as the database for production
   gem 'rails_12factor' #heroku settings for 12 factor applications
 end
-gem "codeclimate-test-reporter", group: :test, require: nil #codeclimate test gem
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
