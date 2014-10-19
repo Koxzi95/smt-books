@@ -2,6 +2,7 @@
 
 
 {<img alt="Status?branch=master" src="https://codeship.io/projects/1004a4e0-39b8-0132-b4d8-7ea5f55f971f/status?branch=master" />}[https://codeship.io/projects/42247]
+{<img src="https://travis-ci.org/Koxzi95/smt-books.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Koxzi95/smt-books]
 {<img src="https://hakiri.io/github/Koxzi95/smt-books/master.svg" alt="security" />}[https://hakiri.io/github/Koxzi95/smt-books/master]
 {<img src="https://codeclimate.com/github/Koxzi95/smt-books/badges/gpa.svg" />}[https://codeclimate.com/github/Koxzi95/smt-books]
 
