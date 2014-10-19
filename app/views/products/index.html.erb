@@ -7,7 +7,7 @@
       <th>Description</th>
       <th>Picture</th>
       <th>Price</th>
-      <th>Date Published</th>
+      <th>Year</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -19,10 +19,10 @@
         <td><%= product.description %></td>
         <td><%= product.picture %></td>
         <td><%= number_to_currency product.price, unit: "£" %></td>
-        <td><%= product.date_published %></td>
+        <td><%= product.date_published.strftime("%Y") %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Remove book from catalogue?' } %></td>
       </tr>
     <% end %>
   </tbody>
