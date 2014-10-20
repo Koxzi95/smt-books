@@ -5,7 +5,7 @@
 if count = Product.count > 0
   Product.delete_all
   puts "Deleting #{count} old rows of seed data"
-ends
+end
 
   Product.create(:title => "Alice in Wonderland",:description => "Young Alice is sitting by the river bank with her older sister,
     feeling bored; her sister's book has no pictures or conversation, and thus holds no interest for Alice. Suddenly,
