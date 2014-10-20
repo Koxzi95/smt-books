@@ -2,6 +2,11 @@
 # The data can then be loaded with the rake db:setup command.
 # > rake db:setup
 
+if count = Product.count > 0
+  Product.delete_all
+  puts "Deleting #{count} old rows of seed data"
+ends
+
   Product.create(:title => "Alice in Wonderland",:description => "Young Alice is sitting by the river bank with her older sister,
     feeling bored; her sister's book has no pictures or conversation, and thus holds no interest for Alice. Suddenly,
     a white rabbit scampers back, proclaims that it is very late, and pulls a pocket watch out of its waistcoat. Though
