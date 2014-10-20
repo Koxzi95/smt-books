@@ -130,5 +130,5 @@
   got warmth, wit and canny intuition on her side, not to mention Mr J. L. B. Matekoni, the charming
   proprietor of Tlokweng Road Speedy Motors. And Precious is going to need them all as she sets out
   on the trail of a missing child, a case that tumbles our heroine into a hotbed of strange situations
-  and more than a little danger . . ." , :picture => 'ladies-detective-agency.jpg' , :price => 7.99,
+  and more than a little danger." , :picture => 'ladies-detective-agency.jpg' , :price => 7.99,
   :date_published => "2004-06-05")
