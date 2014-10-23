@@ -14,6 +14,7 @@ group :production do
   gem 'rails_12factor' #heroku settings for 12 factor applications
 end
 gem 'pg_search' #postgres search
+gem 'seed_dump', '~> 3.2.0' #create seed from live db
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
