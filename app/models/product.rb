@@ -1,4 +1,8 @@
 class Product < ActiveRecord::Base
+
+  include PgSearch
+  multisearchable :against => [:title, :description]
+
   validates :title, :presence => { :message => "cannot be blank"}
   validates :title, :length => {:in => 2..35, :message => "must be between two and thirty five characters"}
   validates :description, :presence => { :message => "cannot be blank"}

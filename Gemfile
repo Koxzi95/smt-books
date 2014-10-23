@@ -13,6 +13,7 @@ group :production do
   gem 'pg' #use postgres as the database for production
   gem 'rails_12factor' #heroku settings for 12 factor applications
 end
+gem 'pg_search' #postgres search
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
