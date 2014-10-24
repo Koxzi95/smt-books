@@ -20,6 +20,3 @@
 "public/uploads" 
 "tmp" 
 "logs" 
-
-#Ignore cloud9 metadata
-/.c9
