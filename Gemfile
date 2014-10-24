@@ -15,6 +15,8 @@ group :production do
 end
 gem 'seed_dump', '~> 3.2.0' #create seed from live db
 
+#basic railsinstaller (windows) gemfile generation
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,6 +33,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '~> 1.2014.9', platforms: [:mingw, :mswin]
+
+#unused or inactive gems go here (dated if custom addition)
 
   #postgres search no longer used as of 24/10/14 -- gem 'pg_search', '~> 0.7.8'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
