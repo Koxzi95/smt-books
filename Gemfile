@@ -10,7 +10,7 @@ group :development do
   gem 'sqlite3', '~> 1.3.9' #use sqlite3 as the database for Active Record (development)
 end
 group :production do
-  gem 'pg', '~> 0.17.1' #use postgres as the database for production
+  gem 'pg', '~> 0.17.1' #use postgres as the database for production with heroku
   gem 'rails_12factor', '~> 0.0.3' #heroku settings for 12 factor applications
 end
 gem 'seed_dump', '~> 3.2.0' #create seed from live db
