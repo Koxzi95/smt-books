@@ -16,16 +16,10 @@ General Information:
 
 * Rails version: v4.1.6
 
-Gemnasium is used to keep gems updated and to manage dependencies.
+* Codeship.io is used for CI and deployment to heroku
 
-Codeship.io is used for CI and deployment to heroku
+* Gemnasium is used to keep gems updated and to manage dependencies.
 
-The seed_dump gem is used for seed creation.
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
+* The seed_dump gem is used for seed creation.
 
 * Deployment instructions
