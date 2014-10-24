@@ -13,7 +13,6 @@ group :production do
   gem 'pg', '~> 0.17.1' #use postgres as the database for production
   gem 'rails_12factor', '~> 0.0.3' #heroku settings for 12 factor applications
 end
-gem 'pg_search', '~> 0.7.8' #postgres search
 gem 'seed_dump', '~> 3.2.0' #create seed from live db
 
 # Use SCSS for stylesheets
@@ -33,6 +32,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '~> 1.2014.9', platforms: [:mingw, :mswin]
 
+  #postgres search no longer used as of 24/10/14 -- gem 'pg_search', '~> 0.7.8'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer',  platforms: :ruby
   # Use ActiveModel has_secure_password
