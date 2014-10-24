@@ -11,7 +11,7 @@ group :development do
   gem 'seed_dump', '~> 3.2.0' #create seed from live db
 end
 group :development, :test do
-  gem 'rspec', '~> 3.1.0'
+  gem 'rspec-rails', '~> 3.1.0'
 end
 group :production do
   gem 'pg', '~> 0.17.1' #use postgres as the database for production with heroku
