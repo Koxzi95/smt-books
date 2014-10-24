@@ -54,6 +54,10 @@ GEM
     multi_json (1.10.1)
     pg (0.17.1)
     pg (0.17.1-x86-mingw32)
+    pg_search (0.7.8)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
+      arel
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -89,6 +93,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    seed_dump (3.2.0)
+      activerecord (~> 4)
+      activesupport (~> 4)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -122,10 +129,12 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails (~> 3.1.2)
   pg
+  pg_search
   rails (= 4.1.6)
   rails_12factor
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  seed_dump (~> 3.2.0)
   sqlite3
   turbolinks (~> 2.4.0)
   tzinfo-data
