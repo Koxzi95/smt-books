@@ -1,4 +1,4 @@
-== README
+== smt-books
 
 
 {<img alt="Status?branch=master" src="https://codeship.io/projects/1004a4e0-39b8-0132-b4d8-7ea5f55f971f/status?branch=master" />}[https://codeship.io/projects/42247]
@@ -7,12 +7,14 @@
 {<img src="https://gemnasium.com/Koxzi95/smt-books.svg" alt="Dependency Status" />}[https://gemnasium.com/Koxzi95/smt-books]
 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is a simple 'bookshop' built with Ruby on Rails. It allows a
+user to add, edit and delete book entries.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: v2.1.0
+
+* Rails version: v4.1.6
 
 * System dependencies
 
