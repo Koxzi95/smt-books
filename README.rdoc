@@ -10,15 +10,17 @@
 This application is a simple 'bookshop' built with Ruby on Rails. It allows a
 user to add, edit and delete book entries.
 
-Things you may want to cover:
+General Information:
 
 * Ruby version: v2.1.0
 
 * Rails version: v4.1.6
 
-* System dependencies
+Gemnasium is used to keep gems updated and to manage dependencies.
 
-* Configuration
+Codeship.io is used for CI and deployment to heroku
+
+The seed_dump gem is used for seed creation.
 
 * Database creation
 
@@ -26,12 +28,4 @@ Things you may want to cover:
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
