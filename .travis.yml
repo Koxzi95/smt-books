@@ -1,0 +1,4 @@
+before_install:
+  - sudo apt-get update
+
+rvm: 2.1.1
