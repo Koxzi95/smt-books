@@ -22,4 +22,4 @@
 "logs" 
 
 #Ignore cloud9 metadata
-.c9
+/.c9
