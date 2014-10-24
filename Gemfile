@@ -8,12 +8,13 @@ gem 'rails', '~> 4.1.6'
 # any specific gems or major gemfile changes should go here
 group :development do
   gem 'sqlite3', '~> 1.3.9' #use sqlite3 as the database for Active Record (development)
+  gem 'rspec', '~> 3.1.0'
+  gem 'seed_dump', '~> 3.2.0' #create seed from live db
 end
 group :production do
   gem 'pg', '~> 0.17.1' #use postgres as the database for production with heroku
   gem 'rails_12factor', '~> 0.0.3' #heroku settings for 12 factor applications
 end
-gem 'seed_dump', '~> 3.2.0' #create seed from live db
 
 #basic railsinstaller (windows) gemfile generation
 

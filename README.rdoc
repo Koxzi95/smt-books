@@ -2,6 +2,7 @@
 
 
 {<img alt="Status?branch=master" src="https://codeship.io/projects/1004a4e0-39b8-0132-b4d8-7ea5f55f971f/status?branch=master" />}[https://codeship.io/projects/42247]
+{<img src="https://travis-ci.org/Koxzi95/smt-books.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Koxzi95/smt-books]
 {<img src="https://hakiri.io/github/Koxzi95/smt-books/master.svg" alt="security" />}[https://hakiri.io/github/Koxzi95/smt-books/master]
 {<img src="https://codeclimate.com/github/Koxzi95/smt-books/badges/gpa.svg" />}[https://codeclimate.com/github/Koxzi95/smt-books]
 {<img src="https://gemnasium.com/Koxzi95/smt-books.svg" alt="Dependency Status" />}[https://gemnasium.com/Koxzi95/smt-books]
@@ -16,10 +17,12 @@ General Information:
 
 * Rails version: v4.1.6
 
-* Codeship.io is used for CI and deployment to heroku
+* Codeship.io is used for CI and deployment to heroku.
+
+* TravisCI is also used for a custom CI environment.
 
 * Gemnasium is used to keep gems updated and to manage dependencies.
 
 * The seed_dump gem is used for seed creation.
 
-* Deployment instructions
+* Deployment instructions.
