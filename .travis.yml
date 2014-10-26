@@ -2,3 +2,7 @@ before_install:
   - sudo apt-get update
 
 #rvm: 2.1.1
+
+addons:
+  code_climate:
+    repo_token: b5bafa78bec906178dccef9296c38dea11a3ff9b8281c6a0783478c2b4bd18b5
