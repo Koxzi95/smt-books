@@ -46,11 +46,13 @@ class ProductsController < ApplicationController
   end
 
   def search
-		@products = Product.simple_search(params[:search_string])
-		render :action => "index"
+    @products = Product.fuzzy_search(params[:search_string])
+    if @products.empty?
+      #flash.now[:alert] = "No records found - displaying all records ..."
+      @products = Product.all.order :title
+    end
+    render :action => "index"
   end
-
-
 
   private
     # Use callbacks to share common setup or constraints between actions.
