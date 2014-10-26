@@ -5,11 +5,14 @@
 {<img src="https://travis-ci.org/Koxzi95/smt-books.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Koxzi95/smt-books]
 {<img src="https://hakiri.io/github/Koxzi95/smt-books/master.svg" alt="security" />}[https://hakiri.io/github/Koxzi95/smt-books/master]
 {<img src="https://codeclimate.com/github/Koxzi95/smt-books/badges/gpa.svg" />}[https://codeclimate.com/github/Koxzi95/smt-books]
+{<img src="https://codeclimate.com/github/Koxzi95/smt-books/badges/coverage.svg" />}[https://codeclimate.com/github/Koxzi95/smt-books]
 {<img src="https://gemnasium.com/Koxzi95/smt-books.svg" alt="Dependency Status" />}[https://gemnasium.com/Koxzi95/smt-books]
 
 
 This application is a simple 'bookshop' built with Ruby on Rails. It allows a
 user to add, edit and delete book entries.
+
+:octocat:
 
 General Information:
 
@@ -23,6 +26,6 @@ General Information:
 
 * Gemnasium is used to keep gems updated and to manage dependencies.
 
-* The seed_dump gem is used for seed creation.
+* The seed_dump gem is used for seed creation. Run rake db:seed:dump
 
 * Deployment instructions.
