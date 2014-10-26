@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root :to => redirect('/products')
-  post 'products/search', to: 'products#search'
+  post 'products/search', to: 'products/search'
   resources :products
   get 'doc/index'
 
