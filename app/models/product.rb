@@ -1,5 +1,11 @@
 class Product < ActiveRecord::Base
 
+  def self.fuzzy_search(search_string)
+		search_string = "%" + search_string + "%"
+		self.where("title LIKE ?", search_string)
+  end
+
+
   validates :title, :presence => { :message => "cannot be blank"}
   validates :title, :length => {:in => 2..35, :message => "must be between two and thirty five characters"}
   validates :description, :presence => { :message => "cannot be blank"}

@@ -45,6 +45,14 @@ class ProductsController < ApplicationController
     redirect_to products_url, notice: 'Book was removed from catalogue.'
   end
 
+  def search
+    @products = Product.fuzzy_search(params[:search_string])
+    if @products.empty?
+      @products = Product.all.order :title
+    end
+      render :action => "index"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
