@@ -28,6 +28,6 @@ General Information:
 
 * Gemnasium is used to keep gems updated and to manage dependencies.
 
-* The seed_dump gem is used for seed creation. Run rake db:seed:dump
+* The seed_dump gem is used for seed creation. Run rake db:seed:dump to create a seeds file from the database.
 
-* Deployment instructions.
+* The app is deployed on heroku. This can be done manually but Codeship.io is used.
