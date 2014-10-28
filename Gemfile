@@ -14,10 +14,12 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.1.0' #rspec rails for spec tests
 end
 gem "codeclimate-test-reporter", group: :test, require: nil #codeclimate test coverage
+gem 'newrelic_rpm' #new relic
 group :production do
   gem 'pg', '~> 0.17.1' #use postgres as the database for production with heroku
   gem 'rails_12factor', '~> 0.0.3' #heroku settings for 12 factor applications
 end
+
 
 #basic railsinstaller (windows) gemfile generation
 

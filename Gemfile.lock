@@ -56,6 +56,7 @@ GEM
     mime-types (2.4.3)
     minitest (5.4.2)
     multi_json (1.10.1)
+    newrelic_rpm (3.9.6.257)
     pg (0.17.1)
     pg (0.17.1-x86-mingw32)
     rack (1.5.2)
@@ -150,6 +151,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.2.4)
   jquery-rails (~> 3.1.2)
+  newrelic_rpm
   pg (~> 0.17.1)
   rails (~> 4.1.6)
   rails_12factor (~> 0.0.3)
