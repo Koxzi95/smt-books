@@ -12,7 +12,8 @@
 
 
 This application is a simple 'bookshop' built with Ruby on Rails. It allows a
-user to add, edit and delete book entries.
+user to add, edit and delete book entries. Eventually I'll be looking at a way
+to use Orchestrate.io as a full backend database.
 
 :octocat:
 

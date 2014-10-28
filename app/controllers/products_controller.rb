@@ -48,7 +48,6 @@ class ProductsController < ApplicationController
   def search
     @products = Product.fuzzy_search(params[:search_string])
     if @products.empty?
-      #flash.now[:alert] = "No records found - displaying all records ..."
       @products = Product.all.order :title
     end
     render :action => "index"
