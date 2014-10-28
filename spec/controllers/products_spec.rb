@@ -13,4 +13,5 @@ RSpec.describe ProductsController, :type => :controller do
       expect(response).to render_template("index")
     end
   end
+  #add in a search spec (if needed)
 end
