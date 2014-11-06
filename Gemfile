@@ -19,6 +19,7 @@ group :production do
   gem 'pg', '~> 0.17.1' #use postgres as the database for production with heroku
   gem 'rails_12factor', '~> 0.0.3' #heroku settings for 12 factor applications
 end
+gem 'carrierwave' #for better image uploads
 
 
 #basic railsinstaller (windows) gemfile generation

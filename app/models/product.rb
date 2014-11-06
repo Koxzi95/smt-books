@@ -1,4 +1,5 @@
 class Product < ActiveRecord::Base
+  mount_uploader :picture, PictureUploader #carrierwave
 
   def self.fuzzy_search(search_string)
 		search_string = "%" + search_string + "%"

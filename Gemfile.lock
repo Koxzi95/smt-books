@@ -29,6 +29,11 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
     codeclimate-test-reporter (0.4.1)
       simplecov (>= 0.7.1, < 1.0.0)
     coffee-rails (4.1.0)
@@ -147,6 +152,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  carrierwave
   codeclimate-test-reporter (~> 0.4.1)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.2.4)
