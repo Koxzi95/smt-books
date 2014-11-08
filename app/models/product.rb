@@ -2,8 +2,8 @@ class Product < ActiveRecord::Base
   mount_uploader :picture, PictureUploader #carrierwave
 
   def self.fuzzy_search(search_string)
-		search_string = "%" + search_string + "%"
-		self.where("title LIKE ?", search_string)
+        search_string = "%" + search_string + "%"
+        self.where("title LIKE ? or price LIKE ?", search_string, search_string)
   end
 
   #validation needs refining
