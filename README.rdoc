@@ -1,8 +1,7 @@
 == smt-books
 
 
-{<img alt="Status?branch=master" src="https://codeship.io/projects/1004a4e0-39b8-0132-b4d8-7ea5f55f971f/status?branch=master" />}[https://codeship.io/projects/42247]
-
+{<img alt="Status?branch=master" src="https://codeship.com/projects/ed286aa0-5dcc-0132-896b-5a8b1698743a/status?branch=master" />}[https://codeship.com/projects/51156]
 
 {<img src="https://travis-ci.org/Koxzi95/smt-books.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Koxzi95/smt-books]
 {<img src="https://hakiri.io/github/Koxzi95/smt-books/master.svg" alt="security" />}[https://hakiri.io/github/Koxzi95/smt-books/master]
